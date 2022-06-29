@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+}
+
+.card {
+    background-color: #EEEEEE;
+    width: 60% !important;
+    min-width: 700px !important;
+    --bs-card-border-radius: 20px !important;
+    --bs-card-inner-border-radius: calc(20px - 1px) !important;
+}
+
+.card-header {
+    background-color: #EEEEEE;
+    display: inline-flex;
+    align-items: center;
+}
+
+#profile {
+    margin: 20px 30px 20px 0px;
+}
+
+.card-body {
+    background-color: #EEEEEE;
+}
+
+.card-footer {
+    background-color: #EEEEEE;
+    margin-top: 30px;
+}
+
+.nav-pills {
+  /*--bs-nav-pills-link-active-bg: #f2bf19;*/
+  /*--bs-nav-pills-link-active-bg: #f27619;*/
+  --bs-nav-pills-link-active-bg: #f38f44;
+}
+
+.vertical_separator {
+    border-left: 1px solid #C7C7C7;
+    height: 200px;
+    margin: 0px 10px !important;
+}
+
+#i_content {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+button {
+    color: #404040 !important;
+    font-weight: bold !important;
+}
+
+button:hover {
+    color: #f38f44 !important;
+}
+
+button.active:hover {
+    color: #404040 !important;
+}
+
+ /* button.active {
+    color: white !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+} */
+
+a {
+    /*color: #f2bf19;*/
+    /*color: #f27619;*/
+    color: #f38f44;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #c06018;
+}
+
+.technologies li {
+    font-weight: bold;
+    display: inline-block !important;
+    background-color: #f38f44 !important;
+    color: #404040 !important;
+    border-radius: 8px !important;
+    margin: 3px;
+}
