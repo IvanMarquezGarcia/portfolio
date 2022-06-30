@@ -1,15 +1,15 @@
 function showHome() {
-    $($("#i_content")[0]).load("../html/home.html");
+    $($("#i_content")[0]).load("src/html/home.html");
 }
 
 function showEducation() {
-    $($("#i_content")[0]).load("../html/education.html");
+    $($("#i_content")[0]).load("src/html/education.html");
 }
 
 function showProjects() {
-    $($("#i_content")[0]).load("../html/working_section.html");
+    $($("#i_content")[0]).load("src/html/working_section.html");
 }
 
 function showContact() {
-    $($("#i_content")[0]).load("../html/contact.html");
+    $($("#i_content")[0]).load("src/html/contact.html");
 }
