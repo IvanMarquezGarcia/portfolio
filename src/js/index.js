@@ -11,6 +11,6 @@ function showProjects() {
 }
 
 function showContact() {
-    $($("#i_content")[0]).load("src/html/working_section.html");
-    //$($("#i_content")[0]).load("src/html/contact.html");
+    //$($("#i_content")[0]).load("src/html/working_section.html");
+    $($("#i_content")[0]).load("src/html/contact.html");
 }
