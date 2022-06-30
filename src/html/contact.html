@@ -1,18 +1,5 @@
-<?php
-    echo "form";
-
-    if($_POST["message"]) {
-        mail(
-            "ivanmarquezgarcia00@gmail.com", "Portfolio Contact",
-            $_POST["message"]. "From: " . $_POST["email"]
-        );
-    }
-?>
-
-
-
 <div>
-    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" enctype="text/plain">
+    <form action="src/php/contact_form.php" method="POST">
         <div class="input_div">
             <label for="input_email">Your email address</label>
             <input id="input_email" type="email" name="email" value="" required/>
