@@ -11,5 +11,5 @@ function showProjects() {
 }
 
 function showContact() {
-    $($("#i_content")[0]).load("../html/working_section.html");
+    $($("#i_content")[0]).load("../html/contact.html");
 }

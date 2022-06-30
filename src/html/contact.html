@@ -1,0 +1,28 @@
+<?php
+    echo "form";
+
+    if($_POST["message"]) {
+        mail(
+            "ivanmarquezgarcia00@gmail.com", "Portfolio Contact",
+            $_POST["message"]. "From: " . $_POST["email"]
+        );
+    }
+?>
+
+
+
+<div>
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" enctype="text/plain">
+        <div class="input_div">
+            <label for="input_email">Your email address</label>
+            <input id="input_email" type="email" name="email" value="" required/>
+        </div>
+        <br/>
+        <div class="input_div" style="display: grid !important;">
+            <label for="input_message">Write your message</label>
+            <textarea id="input_message" name="message" rows="auto" cols="auto" required></textarea>
+        </div>
+        <br/>
+        <input type="submit" name="" value="Send" style="margin: auto 40%;"/>
+    </form>
+</div>
