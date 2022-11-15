@@ -30,10 +30,11 @@
 		<div class="card-body">
 			<div class="row">
 				<div class="col-2 nav flex-column nav-pills">
-					<button class="nav-link active" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true" onclick="showHome()">Home</button>
-					<button class="nav-link" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab" aria-controls="v-pills-education" aria-selected="false" onclick="showEducation()">Education</button>
+					<button id="left-button-home" class="nav-link active" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true" onclick="showHome()">Home</button>
+					<button id="left-button-education" class="nav-link" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab" aria-controls="v-pills-education" aria-selected="false" onclick="showEducation()">Education</button>
+					<button id="left-button-job_history" class="nav-link" data-bs-toggle="tab" data-bs-target="#job_history" type="button" role="tab" aria-controls="v-pills-job_history" aria-selected="false" onclick="showJobHistory()">Job History</button>
 					<!--<button class="nav-link" data-bs-toggle="tab" data-bs-target="#projects" type="button" role="tab" aria-controls="v-pills-projects" aria-selected="false" onclick="showProjects()">Projects</button>-->
-					<button class="nav-link" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="v-pills-contact" aria-selected="false" onclick="showContact()">Contact</button>
+					<button id="left-button-contact" class="nav-link" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="v-pills-contact" aria-selected="false" onclick="showContact()">Contact</button>
 				</div>
 				<div class="col-1"></div>
 				<div id="i_content" class="col-8 align-self-center">
